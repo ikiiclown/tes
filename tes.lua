@@ -17,7 +17,7 @@ if not player or not replicatedStorage then return end
 
 -- Load Rayfield
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"))()
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/ikiiclown/tes/refs/heads/main/Sirius.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ikiiclown/tes/refs/heads/main/Sirius.lua"))()
 -- Window
 local Window = Rayfield:CreateWindow({
     Name = "Fish It Script",
