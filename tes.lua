@@ -45,6 +45,8 @@ local Spawn_Boat = Window:CreateTab("Spawn Boat", "cog")
 local Buy_Rod = Window:CreateTab("Buy Rod", "cog")
 local Buy_Weather = Window:CreateTab("Buy Weather", "cog")
 local Buy_Baits = Window:CreateTab("Buy Bait", "cog")
+local bait = Window:CreateTab(" Up Bait", "cog")
+local fishrod = Window:CreateTab(" Up Rod", "cog")
 
 
 -- Remotes
@@ -195,13 +197,15 @@ MainTab:CreateToggle({
 local Modifiers = require(game:GetService("ReplicatedStorage").Shared.FishingRodModifiers)
 for key in pairs(Modifiers) do
     Modifiers[key] = 999999999
-end
+fishrod:CreateButton({
 })
 
 -- Memaksa efek "Luck Bait"
     CurrentValue = true,
 local bait = require(game:GetService("ReplicatedStorage").Baits["Luck Bait"])
+for key in pairs(bait) do
 bait.Luck = 999999999
+bait:CreateButton({	
 })
 
 MainTab:CreateToggle({
