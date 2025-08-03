@@ -532,7 +532,7 @@ local islandCoords = {
     ["04"] = { name = "Stingray Shores", position = Vector3.new(-32, 4, 2773) },
     ["05"] = { name = "Kohana Volcano", position = Vector3.new(-519, 24, 189) },
     ["06"] = { name = "Coral Reefs", position = Vector3.new(-3095, 1, 2177) },
-    ["07"] = { name = "Crater Island", position = Vector3.new(968, 5, 4854) },
+    ["07"] = { name = "Crater Island", position = Vector3.new(968, 120, 4854) },
     ["08"] = { name = "Kohana", position = Vector3.new(-658, 3, 719) },
     ["09"] = { name = "Winter Fest", position = Vector3.new(1611, 4, 3280) },
     ["10"] = { name = "Isoteric Island", position = Vector3.new(1987, 4, 1400) },
