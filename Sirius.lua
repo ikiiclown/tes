@@ -92,7 +92,7 @@ local siriusValues = {
 	siriusVersion = "1.26",
 	siriusName = "Sirius",
 	releaseType = "Stable",
-	siriusFolder = "Sirius",
+	siriusFolder = "tes",
 	settingsFile = "settings.srs",
 	interfaceAsset = 14183548964,
 	cdn = "https://cdn.sirius.menu/SIRIUS-SCRIPT-CORE-ASSETS/",
@@ -1392,7 +1392,7 @@ local function playNext()
 	end
 
 	musicPanel.Menu.TogglePlaying.ImageRectOffset = currentAudio.Playing and Vector2.new(804, 124) or Vector2.new(764, 244)
-	local asset = getcustomasset(siriusValues.siriusFolder.."/Music/"..musicQueue[1].sound)
+	local asset = getcustomasset(siriusValues.siriusFolder.."/Sirius/Music/"..musicQueue[1].sound)
 
 	if checkSetting("Now Playing Notifications").current then queueNotification("Now Playing", musicQueue[1].sound, 4400695581) end
 
