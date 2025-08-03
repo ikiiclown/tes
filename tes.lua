@@ -191,8 +191,6 @@ MainTab:CreateToggle({
     end
 })
 
-MainTab:CreateToggle({
-Name = "rod modifier",
     CurrentValue = true,
 local Modifiers = require(game:GetService("ReplicatedStorage").Shared.FishingRodModifiers)
 for key in pairs(Modifiers) do
@@ -201,8 +199,6 @@ end
 })
 
 -- Memaksa efek "Luck Bait"
-MainTab:CreateToggle({
-Name = "Lucky Bait efek",
     CurrentValue = true,
 local bait = require(game:GetService("ReplicatedStorage").Baits["Luck Bait"])
 bait.Luck = 999999999
