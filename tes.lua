@@ -76,13 +76,13 @@ end
 
 -- Developer Info
 DevTab:CreateParagraph({
-    Title = "AldyToi Lua",
-    Content = "Thanks For Using This Script!\n\nJangan Lupa Follow Ya Kont\nDeveloper:\n- Tiktok: tiktok.com/aldytoi\n- Instagram: @aldytoi\n- GitHub: github.com/aldyjrz\n\nKeep supporting us!"
+    Title = "ikiiclown Lua",
+    Content = "Thanks For Using This Script!\n\nJangan Lupa Follow Ya\nDeveloper:\n- Tiktok: tiktok.com/ikii.clown\n- Instagram: @ikii.clown\n- GitHub: github.com/ikiiclown\n\nKeep supporting us!"
 })
 
-DevTab:CreateButton({ Name = "Tutor Tiktok", Callback = function() setclipboard("https://tiktok.com/aldytoi") NotifySuccess("Link Tiktok", "Copied to clipboard!") end })
-DevTab:CreateButton({ Name = "Instagram", Callback = function() setclipboard("https://instagram.com/aldytoi") NotifySuccess("Link Instagram", "Copied to clipboard!") end })
-DevTab:CreateButton({ Name = "GitHub", Callback = function() setclipboard("https://github.com/aldyjrz") NotifySuccess("Link GitHub", "Copied to clipboard!") end })
+DevTab:CreateButton({ Name = "Roblox", Callback = function() setclipboard("https://roblox.com/ikii_vilain") NotifySuccess("Link Tiktok", "Copied to clipboard!") end })
+DevTab:CreateButton({ Name = "Instagram", Callback = function() setclipboard("https://instagram.com/ikii.clown") NotifySuccess("Link Instagram", "Copied to clipboard!") end })
+DevTab:CreateButton({ Name = "GitHub", Callback = function() setclipboard("https://github.com/ikiiclown") NotifySuccess("Link GitHub", "Copied to clipboard!") end })
 
 -- MainTab (Auto Fish)
 MainTab:CreateParagraph({
@@ -532,7 +532,7 @@ local islandCoords = {
     ["04"] = { name = "Stingray Shores", position = Vector3.new(-32, 4, 2773) },
     ["05"] = { name = "Kohana Volcano", position = Vector3.new(-519, 24, 189) },
     ["06"] = { name = "Coral Reefs", position = Vector3.new(-3095, 1, 2177) },
-    ["07"] = { name = "Crater Island", position = Vector3.new(968, 1, 5300) },
+    ["07"] = { name = "Crater Island", position = Vector3.new(968, 1, 5000) },
     ["08"] = { name = "Kohana", position = Vector3.new(-658, 3, 719) },
     ["09"] = { name = "Winter Fest", position = Vector3.new(1611, 4, 3280) },
     ["10"] = { name = "Isoteric Island", position = Vector3.new(1987, 4, 1400) },
