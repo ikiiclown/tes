@@ -537,7 +537,7 @@ local islandCoords = {
     ["10"] = { name = "Isoteric Island", position = Vector3.new(1987, 4, 1400) },
 ["11"] = { name = "Lost Isle", position = Vector3.new(-3670.30078125, -113.00000762939453, -1128.0589599609375)},
 ["12"] = { name = "Lost Isle [Lost Shore]", position = Vector3.new(-3697, 97, -932)},
-["13"] = { name = "Lost Isle [Sisyphus]", position = Vector3.new(-3719.850830078125, -90.00000762939453, -958.6303100585938)},
+["13"] = { name = "Lost Isle [Sisyphus]", position = Vector3.new(-3719.850830078125, -60.00000762939453, -958.6303100585938)},
 
 ["14"] = { name = "Lost Isle [Treasure Hall]", position = Vector3.new(-3652, -298.25, -1469)},
 ["15"] = { name = "Lost Isle [Treasure Room]", position = Vector3.new(-3652, -283.5, -1651.5)}
