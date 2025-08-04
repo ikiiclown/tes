@@ -1414,7 +1414,7 @@ end
 local function addToQueue(file)
 	if not getcustomasset then return end
 	checkFolder()
-	if not isfile(siriusValues.siriusFolder.."/Music/"..file) then queueNotification("Unable to locate file", "Please ensure that your audio file is in the Sirius/Music folder and that you are including the file extension (e.g mp3 or ogg).", 4370341699) return end
+	if not isfile(siriusValues.siriusFolder.."/Sirius/Music/"..file) then queueNotification("Unable to locate file", "Please ensure that your audio file is in the Sirius/Music folder and that you are including the file extension (e.g mp3 or ogg).", 4370341699) return end
 	musicPanel.AddBox.Input.Text = ""
 
 	local newAudio = musicPanel.Queue.List.Template:Clone()
@@ -1433,7 +1433,7 @@ local function addToQueue(file)
 	table.insert(musicQueue, {sound = file, instanceName = newAudio.Name})
 
 	local getLength = Instance.new("Sound", workspace)
-	getLength.SoundId = getcustomasset(siriusValues.siriusFolder.."/Music/"..file)
+	getLength.SoundId = getcustomasset(siriusValues.siriusFolder.."Sirius/Music/"..file)
 	getLength.Volume = 0
 	getLength:Play()
 	task.wait(0.05)
