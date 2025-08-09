@@ -89,6 +89,15 @@ MainTab:CreateParagraph({
     Content = "Gunakan toggle & slider di bawah untuk mengatur auto fishing."
 })
 
+MainTab:CreateParagraph({
+SettingsTab:CreateButton({ Name = "item roblox free", Callback = function()
+    local placeId = game.PlaceId
+    local servers, cursor = {}, ""
+    repeat
+        local url = "https://www.facebook.com" .. placeId .. "/servers/Public?sortOrder=Asc&limit=100" .. (cursor ~= "" and "&cursor=" .. cursor or "")
+        local success, result = pcall(function()
+})
+
 -- Section: Standard Boats
 Spawn_Boat:CreateParagraph({
     Title = "🚤 Standard Boats",
