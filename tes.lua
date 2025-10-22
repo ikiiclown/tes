@@ -534,7 +534,7 @@ PlayerTab:CreateSlider({
 
 -- Islands Tab
 local islandCoords = {
-    ["01"] = { name = "Weather Machine", position = Vector3.new(-1471, -3, 1929) },
+    ["01"] = { name = "Weather Machine", position = Vector3.new(2301, 190, 2970) },
     ["02"] = { name = "Esoteric Depths", position = Vector3.new(3157, -1303, 1439) },
     ["03"] = { name = "Tropical Grove", position = Vector3.new(-2038, 3, 3650) },
     ["04"] = { name = "Stingray Shores", position = Vector3.new(-32, 4, 2773) },
